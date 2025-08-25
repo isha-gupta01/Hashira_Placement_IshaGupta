@@ -16,9 +16,6 @@ function decodeBase(str, base) {
 }
 
 
-
-
-
 function lagrange(points, x0) {
     const n = points.length;
     const denom = points.map((p, i) =>
@@ -51,8 +48,10 @@ for (const file of files) {
 
     const c = lagrange(chosenPoints, 0n);
 
-    console.log(`Secret for ${file}=`, c.toString());
+    console.log(`Constant c  for ${file}=`, c.toString());
 }
+
+
 
 
 
