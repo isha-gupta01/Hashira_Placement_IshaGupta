@@ -1,0 +1,1 @@
+The Hashira.js file is the code for finding polynomial equation roots using Lagrange Interpolation Formula and it also works for larger values . So we used BigInt in js, so the value do not overflow of the given base.
